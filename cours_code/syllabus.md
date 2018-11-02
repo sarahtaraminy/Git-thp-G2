@@ -1,16 +1,17 @@
-<h1>##SYLLABUS</h1>  
+    <h1>SYLLABUS</h1>  
   
 * **Intitulé de la formation** : Initiation code pour son propre site web  
 * **Volume horaire** :8h de cours + 15 h de projets  
 * **Enseignant** : Félix Gaudé pour le cours, vous-mêmes pour les projets  
-#**Description du cours**  
+**#Description du cours**  
 Avec The Hacking Project, devenez un boucanier et découvrez les bases de l’informatique pour lancer votre site Internet !
-Vous allez travailler ensemble en petits groupes, et découvrir l’écran noirs avec des projets concrets, l’apprentissage en communauté, et l’entraide entre élèves.
+Vous allez travailler ensemble en petits groupes, et découvrir l’écran noirs avec des projets concrets, l’apprentissage en communauté, et l’entraide entre élèves.  
 #Programme et calendrier du cours  
 Ce programme n’est pas définitif et peut être modifié en fonction des envies des élèves.  
+  
 **Séance 1**  
 * **Date** : 25/09  
-* ** Titre** : Découverte de l’écran noir pour se sentir comme un hacker  
+* **Titre** : Découverte de l’écran noir pour se sentir comme un hacker  
 * **Résumé** : Vous allez découvrir le terminal, ainsi que Git, un superbe outil pour travailler en équipe. Puis vous allez découvrir GitHub, l’un des sites les plus importants quand on est développeur  
 * **Projet** : Faire un projet à plusieurs et le mettre sur GitHub  
 **Séance 2**  
@@ -31,7 +32,7 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envies des
 * **Projet** :aucun  
   
   
-#**Objectif du cours**  
+#**Objectif du cours**# 
   
 Le cours a pour but principal de faire découvrir le monde des sites webs et de l’informatique.  
 A la fin, les étudiants seront capables de :  
@@ -45,28 +46,28 @@ A la fin, les étudiants seront capables de :
 *-* Découvrir le monde merveilleux du jargon de l’informatique   
   
 De plus, avec la pédagogie de l’éducation de pairs, les étudiants seront capables de :  
-*-*S’expliquer mutuellement des concepts compliqués  
-*-*Travailler en équipe sur les projets d’entreprise  
-*-*Rechercher la bonne information  
-*-*Assimiler rapidement des bases théoriques pour les appliquer dans des projets  
+*-* S’expliquer mutuellement des concepts compliqués  
+*-* Travailler en équipe sur les projets d’entreprise  
+*-* Rechercher la bonne information  
+*-* Assimiler rapidement des bases théoriques pour les appliquer dans des projets  
   
   
-#**Exemple de projet**  
+#**Exemple de projet**   
 Réaliser à plusieurs un site internet au format *landing page* pour présenter une idée startup et le mettre en ligne.  
   
-#**Bibliographie succinte**  
+**Bibliographie succinte**  
 Chaccon, Scott : Straub, Ben. *Pro Git*. Apress. 2014. 456 pages  
   
 Hartl, Micheal. *Learn Enough Command Line to Be Dangerous: A tutorial introduction to the Unix command line.* Softcover. 2016. 85 pages.  
   
 Nebra, Mathieu. *Réalisez votre site web avec HTML 5 et CSS3.* OpenClassrooms. 2017. 306 pages  
   
-#**Langue d’enseignement**#  
+**Langue d’enseignement**  
 Le cours, vous aurez besoin d’un ordinateur.  
   
 Voici les différents logiciels à installer :  
 * Un terminal  
- *  Déjà installé sur macOS et Linux
- * Cygwin sur Windows
+  * Déjà installé sur macOS et Linux
+  * Cygwin sur Windows
 * Un éditeur de texte  
- * Sublime Text ou Visual Studio Code  
+  * Sublime Text ou Visual Studio Code  
