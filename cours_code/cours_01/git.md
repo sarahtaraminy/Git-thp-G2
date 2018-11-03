@@ -1,10 +1,10 @@
-# *1. Le terminal*.
+# **1. Le terminal**
 
-## *1.1. Introduction*. 
+## **1.1. Introduction** 
 
 Dans cette ressource, tu vas découvrir les bases du terminal, un outil très puissant qui permet de "parler" à son ordinateur. Nous allons voir les bases : comment intéragir avec le terminal, comment jouer avec ses premiers fichiers, et bien d'autres.
 
-*1.1.1. Ce que tu apprendre dans cette ressource*. 
+**1.1.1. Ce que tu apprendre dans cette ressource** 
 
 Voici la liste des questions auxquelles tu vas pouvoir répondre avec cette ressource :
 
@@ -20,7 +20,7 @@ Voici la liste des questions auxquelles tu vas pouvoir répondre avec cette resso
 
 *  Qu'est-ce que VIM et comment s'en servir ?
 
-## *1.2. Historique*. 
+## **1.2. Historique** 
 
 Le terminal est ce que l'on appelle plus communément un interpréteur de commande (ou command-line interpreter (CLI) en anglais), est un outil qui permet d'interpréter les commandes qu'un utilisateur tape au clavier dans l'interface en ligne de commande.
 
@@ -53,7 +53,7 @@ $ echo "Hello world !"
 Si tu exécutes cette commande le terminal devrait te renvoyer Hello world ! (cette phrase est un grand classique de la programmation). Et là, tu viens d'exécuter ta première commande de terminal ??
 Maintenant nous allons voir les premières commandes de base.
 
-**1.3.3.1. PWD.**  
+**1.3.3.1. PWD**  
 
 pwd est l'acronyme de Print Working Directory, une commande qui affiche le dossier dans lequel tu es actuellement.
 
@@ -65,7 +65,7 @@ C'est comme dans l'explorateur en GUI, quand tu double-cliques sur felix, il te 
 ## **ALERTE BONNE ASTUCE**
 pwd est généralement la première commande que l'on tappe quand on arrive dans le terminal de quelqu'un : c'est idéal pour s'y retrouver ??. 
 
-**1.3.3.2. LS.** 
+**1.3.3.2. LS** 
 
 ls est le diminutif pour list, cette fonction affiche les fichiers et dossiers qu'il y a dans mon dossier actuel.
 
