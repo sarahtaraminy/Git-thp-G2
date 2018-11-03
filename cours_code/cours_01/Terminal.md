@@ -31,7 +31,7 @@ En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir d
 
 **1.3.1. Qu'est-ce que le terminal ?** 
 
-Le terminal est un outil intimidant aux premiers abords, mais au final se révèle pas compliqué. J'ai réalisé une vidéo qui explique le terminal :
+Le terminal est un outil intimidant aux premiers abords, mais au final se révèle pas compliqué. J'ai réalisé [une vidéo](https://youtu.be/myz_6xrDwR4) qui explique le terminal.
 
 
 
@@ -50,9 +50,9 @@ Si tu utilises Linux, passe ton terminal en anglais. Quand ce dernier te renverr
 Pour faire marcher le terminal, rien de plus simple : il suffit de rentrer le texte correspondant à la fonction et cela s'exécutera. Par exemple si dans l'explorateur en GUI il suffit de double cliquer sur mon_fichier.txt pour l'ouvrir, il faudra faire dans le terminal open mon_fichier.txt (sur macOS) ou xdg-open mon_fichier.txt (sur Linux) pour l'ouvrir avec le terminal. On va tester avec notre première fonction :
 $ echo "Hello world !"
 (je commence toutes les commande du terminal avec un $, c'est une convention, et c'est plus facile à reconnaitre comme ceci)
-Si tu exécutes cette commande le terminal devrait te renvoyer Hello world ! (cette phrase est un grand classique de la programmation). Et là, tu viens d'exécuter ta première commande de terminal ??
+Si tu exécutes cette commande le terminal devrait te renvoyer Hello world ! (cette phrase est [un grand classique de la programmation](https://fr.wikipedia.org/wiki/Hello_world)). Et là, tu viens d'exécuter ta première commande de terminal ??
 Maintenant nous allons voir les premières commandes de base.
-
+  
 **1.3.3.1. PWD**  
 
 pwd est l'acronyme de Print Working Directory, une commande qui affiche le dossier dans lequel tu es actuellement.
@@ -170,9 +170,9 @@ Voici les points à retenir de la ressource :
 
 ## **1.5. Aller plus loin** 
 
-Voici un excellent cours express pour avoir quelques base sur le terminal. Il est un peu similaire au mien, mais aborde d'autres sujets intéressants tels que le PATH.
+Voici un excellent [cours express](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) pour avoir quelques base sur le terminal. Il est un peu similaire au mien, mais aborde d'autres sujets intéressants tels que le PATH.
 
-Viking Code School ont aussi fait un cours sur le pimp de terminal pour avoir plein de couleurs de BGs sur le tien.
+Viking Code School ont aussi fait un cours sur le [pimp de terminal](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) pour avoir plein de couleurs de BGs sur le tien.
 
-Michael Hartl a fait une célèbre introduction au terminal nommée Learn Enough Command Line to Be Dangerous. Cette ressource permet d'aller assez loin en détails dans le terminal.
-Pour ceux qui veulent découvrir Vim, voici une marche à suivre pour être champion de Vim rapidement.
+Michael Hartl a fait une célèbre introduction au terminal nommée Learn Enough [Command Line](https://www.learnenough.com/command-line-tutorial) to Be Dangerous. Cette ressource permet d'aller assez loin en détails dans le terminal.
+Pour ceux qui veulent découvrir Vim, voici [une marche à suivre](https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85) pour être champion de Vim rapidement.
