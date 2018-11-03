@@ -1,12 +1,12 @@
-    <h1>SYLLABUS</h1>  
+           ## SYLLABUS   
   
 * **Intitulé de la formation** : Initiation code pour son propre site web  
 * **Volume horaire** :8h de cours + 15 h de projets  
 * **Enseignant** : Félix Gaudé pour le cours, vous-mêmes pour les projets  
-**#Description du cours**  
+# **Description du cours**  
 Avec The Hacking Project, devenez un boucanier et découvrez les bases de l’informatique pour lancer votre site Internet !
 Vous allez travailler ensemble en petits groupes, et découvrir l’écran noirs avec des projets concrets, l’apprentissage en communauté, et l’entraide entre élèves.  
-#Programme et calendrier du cours  
+# Programme et calendrier du cours  
 Ce programme n’est pas définitif et peut être modifié en fonction des envies des élèves.  
   
 **Séance 1**  
@@ -32,7 +32,7 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envies des
 * **Projet** :aucun  
   
   
-#**Objectif du cours**# 
+# **Objectif du cours**
   
 Le cours a pour but principal de faire découvrir le monde des sites webs et de l’informatique.  
 A la fin, les étudiants seront capables de :  
@@ -52,7 +52,7 @@ De plus, avec la pédagogie de l’éducation de pairs, les étudiants seront capable
 *-* Assimiler rapidement des bases théoriques pour les appliquer dans des projets  
   
   
-#**Exemple de projet**   
+# **Exemple de projet**   
 Réaliser à plusieurs un site internet au format *landing page* pour présenter une idée startup et le mettre en ligne.  
   
 **Bibliographie succinte**  
