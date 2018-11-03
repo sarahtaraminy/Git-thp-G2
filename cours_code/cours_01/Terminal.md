@@ -31,8 +31,7 @@ En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir d
 
 **1.3.1. Qu'est-ce que le terminal ?** 
 
-Le terminal est un outil intimidant aux premiers abords, mais au final se révèle pas compliqué. J'ai réalisé [une vidéo(https://youtu.be/myz_6xrDwR4)  qui explique le terminal.
-
+Le terminal est un outil intimidant aux premiers abords, mais au final se révèle pas compliqué. J'ai réalisé [une vidéo](https://youtu.be/myz_6xrDwR4)  qui explique le terminal.
 
 
 
