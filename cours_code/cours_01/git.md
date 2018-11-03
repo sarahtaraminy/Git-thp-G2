@@ -1,6 +1,6 @@
-## *1. Le terminal*.
+# *1. Le terminal*.
 
-# *1.1. Introduction*. 
+## *1.1. Introduction*. 
 
 Dans cette ressource, tu vas découvrir les bases du terminal, un outil très puissant qui permet de "parler" à son ordinateur. Nous allons voir les bases : comment intéragir avec le terminal, comment jouer avec ses premiers fichiers, et bien d'autres.
 
@@ -10,24 +10,24 @@ Voici la liste des questions auxquelles tu vas pouvoir répondre avec cette resso
 
 *   Qu'est-ce que le terminal ?
 
-*   Que veut dire GUI et CLI ?
+*  Que veut dire GUI et CLI ?
 
-*. Comment lancer un terminal ?
+*  Comment lancer un terminal ?
 
-*. Comment exécuter ses premières fonctions avec un terminal ?
+*  Comment exécuter ses premières fonctions avec un terminal ?
 
 *  Pourquoi la notion de géographie est très importante dans un terminal ?
 
 *  Qu'est-ce que VIM et comment s'en servir ?
 
-# *1.2. Historique*. 
+## *1.2. Historique*. 
 
 Le terminal est ce que l'on appelle plus communément un interpréteur de commande (ou command-line interpreter (CLI) en anglais), est un outil qui permet d'interpréter les commandes qu'un utilisateur tape au clavier dans l'interface en ligne de commande.
 
 À la base, les ordinateurs tournaient sans interface graphique, donc les utilisateurs passaient exclusivement par les CLI. Avec l'arrivée des systèmes d'exploitation graphiques (Windows, Apple, Linux), le CLI n'a pas perdu en popularité, puisqu'il permet de faire des tâches extrêmement précises.
 En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir des dossiers, créer des fichiers, les lancer, les renommer, installer des programmes, et bien d'autres choses. On dit que c'est une **CLI** (Command Line Interface), comparée à la **GUI** (Graphical User Interface) de l'explorateur normal. Tout est fait via clavier, donc pas besoin de souris dans le terminal.
 
-# *1.3. Le terminal*. 
+## *1.3. Le terminal*. 
 
 *1.3.1. Qu'est-ce que le terminal ?*. 
 
@@ -40,11 +40,11 @@ Le terminal est un outil intimidant aux premiers abords, mais au final se révèle
 
 Sur Linux : CTRL + ALT + T
 Sur macOS : CMD + SPACE, puis écrire Terminal (ou iTerm), Enter.
-# *?? ALERTE BONNE ASTUCE.*
+## *?? ALERTE BONNE ASTUCE.*
 
 Si tu utilises Linux, passe ton terminal en anglais. Quand ce dernier te renverra une erreur, c'est bien mieux qu'elle soit en anglais. L'anglais et la langue d'internet, donc la majorité des gens qui ont eu ton problème vont le poster en anglais. Et ainsi tu auras 100 fois plus de résultats sur Google que si tu postais ton erreur en français.
 
-# *1.3.3. Premières fonctions ?*. 
+## *1.3.3. Premières fonctions ?*. 
 
 Pour faire marcher le terminal, rien de plus simple : il suffit de rentrer le texte correspondant à la fonction et cela s'exécutera. Par exemple si dans l'explorateur en GUI il suffit de double cliquer sur mon_fichier.txt pour l'ouvrir, il faudra faire dans le terminal open mon_fichier.txt (sur macOS) ou xdg-open mon_fichier.txt (sur Linux) pour l'ouvrir avec le terminal. On va tester avec notre première fonction :
 $ echo "Hello world !"
@@ -61,7 +61,7 @@ Pour moi, pwd me renvoie :
 /Users/felix
 C'est comme dans l'explorateur en GUI, quand tu double-cliques sur felix, il te déplace dans le dossier felix qui est dans le dossier Users.
 
-# *?? ALERTE BONNE ASTUCE*
+## *?? ALERTE BONNE ASTUCE*
 pwd est généralement la première commande que l'on tappe quand on arrive dans le terminal de quelqu'un : c'est idéal pour s'y retrouver ??. 
 
 *1.3.3.2. LS*. 
@@ -95,7 +95,7 @@ $ cd nomdudossier
 Tu te déplaceras dans le dossier nommé nomdudossier (s'il existe dans le dossier dans lequel tu te trouves).
 Tu peux aussi te déplacer vers le dossier parent en faisant $ cd ..
 
-# *?? ALERTE BONNE ASTUCE*. 
+## *?? ALERTE BONNE ASTUCE*. 
 
 Utiliser la touche TAB permet de faire de l'autocompletion, très pratique pour cette méthode. Aussi, faire cd + [ESPACE] + TAB + TAB affiche les dossiers disponibles.
 
@@ -125,7 +125,7 @@ $ rm nomdufichier
 Il est possible d'effacer un dossier ainsi que son contenu en ajoutant la récursion en option :
 
 $ rm -r nomdudossier
-# *?? INSTANT CULTURE GÉ*. 
+## *?? INSTANT CULTURE GÉ*. 
 
 rm est à l'origine d'une blague vieille comme le monde. En effet, ajouter l'option -f permet de forcer la suppression d'un fichier, même s'il est important pour l'ordinateur, et finir par / ou * dit à votre ordinateur de prendre absolument tous les fichiers. Ainsi, si tu tapes $ rm -rf / ou $ rm -rf * dans ton terminal, tu dis à ce dernier de tout prendre et de tout effacer, en forçant. Et figure toi que rm est très rapide, et donc effacera l'intégralité de ton ordinateur en quelques secondes à peine. À ne jamais jamais jamais faire donc.
 
@@ -143,7 +143,7 @@ La casse est très importante, idem pour les espaces.
 Il y a des raccourcis pratiques, par exemple CTRL + U efface la ligne en cours.
 Les touches du haut et du bas permettent de naviguer dans l'historique des commandes. Très pratique pour par exemple re-éxécuter une commande que tu viens de faire.
 
-# *1.4. Les points importants*. 
+## *1.4. Les points importants*. 
 
 Voici les points à retenir de la ressource :
 
@@ -167,7 +167,7 @@ Voici les points à retenir de la ressource :
 
 *       rm permet de supprimer un fichier. 
 
-# *1.5. Aller plus loin*. 
+## *1.5. Aller plus loin*. 
 
 Voici un excellent cours express pour avoir quelques base sur le terminal. Il est un peu similaire au mien, mais aborde d'autres sujets intéressants tels que le PATH.
 
