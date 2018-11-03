@@ -1,178 +1,70 @@
-# **1. Le terminal**
+# **2. Git et GitHub**
+## **2.1. Introduction**
+Ce cours t'introduira √† Git et Github, deux fantastiques outils qui permettent de faire des sauvegardes efficaces d'un projet, et de travailler √† plusieurs sur le m√™me dossier.
 
-## **1.1. Introduction** 
+Dans cette le√ßon, nous allons te montrer comment installer Git, comment s'en servir, et comment le faire marcher. Pour ceci, nous allons nous aider de l'excellent [cours](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) sur OpenClassrooms de Marc Gauthier, sur Git et GitHub.
 
-Dans cette ressource, tu vas dÈcouvrir les bases du terminal, un outil trËs puissant qui permet de "parler" ‡ son ordinateur. Nous allons voir les bases : comment intÈragir avec le terminal, comment jouer avec ses premiers fichiers, et bien d'autres.
+### **2.1.1. Ce que tu vas apprendre dans cette ressource**  
+## **2.2. Historique**  
+Git est un outil de versionning de code, c'est √† dire que c'est une commande qui permet de faire des sauvegardes, avec commentaires d'un projet. Ainsi, il est facile de revenir d'une version de sauvegarde √† l'autre, et c'est m√™me optimis√© pour les projets o√π tout le monde travaille sur le m√™me fichier !
 
-**1.1.1. Ce que tu apprendre dans cette ressource** 
+En gros, c'est la m√™me chose quand vous fa√Ætes une grosse pr√©sentation PPT. Vous faites tellement de modifications dessus que vous vous retrouvez √† la fin avec le nom "VF_avec_retours_Jean01_final.ppt". Le versionning vous permet d'avoir toutes les versions sauvegard√©es, et de revenir √† celles que vous voulez √† tout moment, et de nous √©viter ces tracas.
 
-Voici la liste des questions auxquelles tu vas pouvoir rÈpondre avec cette ressource :
+Voil√† √† quoi Git sert : √† mieux g√©rer ses versions entre les fichiers d'un projet (bonus : Git marche pour tous les fichiers d'un dossier concern√©, donc c'est encore plus puissant que CTRL + S). Et GitHub permet de mettre en ligne ton projet, comme √ßa vous pourrez travailler facilement en √©quipe dessus.
 
-*  Qu'est-ce que le terminal ?
+Pour information, Git a √©t√© cr√©√© en 2005 par Linus Torvald, qui a (entre autres) cr√©√© le syst√®me d'exploitation Linux.
 
-*  Que veut dire GUI et CLI ?
+## **2.3. Le cours**
+### **2.3.1. Installer Git**  
+Avant de pouvoir se servir de Git, il faut l'installer. Cela tombe bien, il y a un [chapitre √©ponyme](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433596-installez-git) dans le cours sur OC.
 
-*  Comment lancer un terminal ?
-
-*  Comment exÈcuter ses premiËres fonctions avec un terminal ?
-
-*  Pourquoi la notion de gÈographie est trËs importante dans un terminal ?
-
-*  Qu'est-ce que VIM et comment s'en servir ?
-
-## **1.2. Historique** 
-
-Le terminal est ce que l'on appelle plus communÈment un interprÈteur de commande (ou command-line interpreter (CLI) en anglais), est un outil qui permet d'interprÈter les commandes qu'un utilisateur tape au clavier dans l'interface en ligne de commande.
-
-¿ la base, les ordinateurs tournaient sans interface graphique, donc les utilisateurs passaient exclusivement par les CLI. Avec l'arrivÈe des systËmes d'exploitation graphiques (Windows, Apple, Linux), le CLI n'a pas perdu en popularitÈ, puisqu'il permet de faire des t‚ches extrÍmement prÈcises.
-En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir des dossiers, crÈer des fichiers, les lancer, les renommer, installer des programmes, et bien d'autres choses. On dit que c'est une **CLI** (Command Line Interface), comparÈe ‡ la **GUI** (Graphical User Interface) de l'explorateur normal. Tout est fait via clavier, donc pas besoin de souris dans le terminal.
-
-## **1.3. Le terminal** 
-
-**1.3.1. Qu'est-ce que le terminal ?** 
-
-Le terminal est un outil intimidant aux premiers abords, mais au final se rÈvËle pas compliquÈ. J'ai rÈalisÈ une vidÈo qui explique le terminal :
+### **2.3.2.** Premi√®re introduction √† Git
+J'ai fait une petite vid√©o d'introduction √† Git, que tu pourras retrouver [**ici**](https://youtu.be/ggaMadCKjko).
 
 
 
+Ensuite, tu peux suivre le cours de Marc Gauthier jusqu'√† la partie [R√©cup√©rez des modifications](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github). Nous verrons dans la formation THP comment faire les branches et autres joyeuset√©s üòá
 
-**1.3.2. Comment le lancer ?**
+## **2.4. Points importants √† retenir**
+### **2.4.1. Les commandes pratiques**  
+Voici un r√©cap des commandes de base :
 
-Sur Linux : CTRL + ALT + T  
-Sur macOS : CMD + SPACE, puis Ècrire Terminal (ou iTerm), Enter.  
+$ git init : il faut TOUJOURS commencer par initialiser git avec cette commande. Avec cette commande, le r√©pertoire courant est consid√©r√© comme un repository git    
+$ git add [fichier] : ajoute aux sauvegardes le fichier mentionn√©. Protip : si tu as plusieurs fichiers √† ajouter, tu peux utiliser $ git add . qui ajoute au repository tous les fichiers du dossier   
+$ git commit -m [commentaire] : cr√©√© un commit (commit = sauvegarde suivie d'un commentaire).  
+$ git status : te dit le status actuel de git.   
   
-## **ALERTE BONNE ASTUCE**
+### **2.4.2. Lire l'historique**   
+$ git log : permet de voir l'historique et de voir tous les commits. Les commits sont rang√©s avec :  
+
+SHA : liste de chiffres et lettres qui indentifient de fa√ßon unique le commit.  
+Auteur  
+Date  
+Message donn√© durant le commit : avec ce message, tu vas comprendre ce que faisait le commit. C'est pour cela qu'il est important d'avoir un bon nom.  
+Pour quitter le log, il faut appuyer sur Q.  
+   
+### **2.4.3.** Se positionner sur un commit donn√©  
+Imaginons que veut v√©rifier un truc sur un vieux commit. On va utiliser la commande $ git checkout, utilis√©e comme ceci :  
   
-Si tu utilises Linux, passe ton terminal en anglais. Quand ce dernier te renverra une erreur, c'est bien mieux qu'elle soit en anglais. L'anglais et la langue d'internet, donc la majoritÈ des gens qui ont eu ton problËme vont le poster en anglais. Et ainsi tu auras 100 fois plus de rÈsultats sur Google que si tu postais ton erreur en franÁais.  
+$ git checkout 45581cebdd2cae494f80f44010af9e4a86c9b8fa : on dit √† git de se positionner sur ce sha pr√©cis.  
+$ git checkout master : une fois que l'on a fini de se balader, il faut revenir √† la version pr√©sente de notre repository avec cette commande  
   
-## **1.3.3. PremiËres fonctions ?**  
-  
-Pour faire marcher le terminal, rien de plus simple : il suffit de rentrer le texte correspondant ‡ la fonction et cela s'exÈcutera. Par exemple si dans l'explorateur en GUI il suffit de double cliquer sur mon_fichier.txt pour l'ouvrir, il faudra faire dans le terminal open mon_fichier.txt (sur macOS) ou xdg-open mon_fichier.txt (sur Linux) pour l'ouvrir avec le terminal. On va tester avec notre premiËre fonction :
-$ echo "Hello world !"
-(je commence toutes les commande du terminal avec un $, c'est une convention, et c'est plus facile ‡ reconnaitre comme ceci)
-Si tu exÈcutes cette commande le terminal devrait te renvoyer Hello world ! (cette phrase est un grand classique de la programmation). Et l‡, tu viens d'exÈcuter ta premiËre commande de terminal ??
-Maintenant nous allons voir les premiËres commandes de base.
+>‚ö†Ô∏è ALERTE ERREUR COMMUNE  
+    
+$ git checkout ne marche que si tu n'as pas de modification non sauvegard√©e. Si tu es entre deux commits, git checkout ne marchera pas. Du coup il te faudra soit faire une sauvegarde (== faire un commit), soit effacer tout pour revenir au commit d'avant.
 
-**1.3.3.1. PWD**  
+$ git checkout n'est pas une commande pour revenir en arri√®re et faire des modifications sur les anciens commits. Si tu fais √ßa, tu vas te retrouver avec une erreur qui a donn√© lieu [√† l'un des threads](https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin) les plus c√©l√®bres de Stack Overflow. Pour tout effacer et revenir en arri√®re, le chapitre suivant sera l√† pour toi.  
 
-pwd est l'acronyme de Print Working Directory, une commande qui affiche le dossier dans lequel tu es actuellement.
+### **2.4.4. Revenir en arri√®re**  
+J'ai fait des trucs, mais cela ne me convient pas. Comment revenir sur en arri√®re ? (inspir√© par [cette excellente r√©ponse](https://stackoverflow.com/questions/4114095/how-to-revert-a-git-repository-to-a-previous-commit/4114122#4114122) de Stack Overflow)  
 
-$ pwd
-Pour moi, pwd me renvoie :
-/Users/felix
-C'est comme dans l'explorateur en GUI, quand tu double-cliques sur felix, il te dÈplace dans le dossier felix qui est dans le dossier Users.
+**2.4.4.1. Effacer pour revenir au commit d'avant**  
+La fonction $ git reset --hard permet de revenir au commit pr√©c√©dent, en effa√ßant tout. C'est une commande pratique quand on veut essayer de nouvelles choses √† la vol√©e, puis de revenir en arri√®re comme si de rien n'√©tait ‚úåÔ∏è
 
-## **ALERTE BONNE ASTUCE**
-pwd est gÈnÈralement la premiËre commande que l'on tappe quand on arrive dans le terminal de quelqu'un : c'est idÈal pour s'y retrouver ??. 
+**2.4.4.2. Tout effacer et revenir √† un ancien commit**  
+On peut faire ceci avec : $ git reset --hard 45581cebdd2cae494f80f44010af9e4a86c9b8fa, avec 45581c le SHA sur lequel tu veux revenir.
 
-**1.3.3.2. LS** 
+## **2.5. Pour aller plus loin**
+Au vu des apologies que l'on lui donne, [le cours de OpenClassrooms](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) sur Git est un tr√®s bon point pour aller plus loin. Il explique notamment la notion de branches et de fusions.
 
-ls est le diminutif pour list, cette fonction affiche les fichiers et dossiers qu'il y a dans mon dossier actuel.
-
-$ ls
-Pour moi, ls me renvoie :
-
-Applications/ Dropbox/ Music/ Desktop/
-Pictures/ Documents/ Library/ Public/
-Downloads/ Movies/
-Dans le terminal, nous pouvons donner des options aux fonctions, en faisant $ fonction -option. Par exemple, je peux faire ls -a, ce qui a pour effet d'afficher aussi les fichiers commenÁant par un . (fichiers de devs en gÈnÈral), ou je peux faire ls -l pour afficher la liste au format long. Et je peux mÍme combiner les deux en faisant ls -al pour afficher aussi les fichiers commenÁant par un ., tout au format long.
-
-**1.3.3.3. MAN** 
-
-man est le diminutif de manual. Man lance un programme qui permet de lire la manuel d'une fonction prÈcise. Pratique pour savoir toutes ses spÈcificitÈs. Pour s'en servir il suffit de tapper : man fonction. Par exemple pour afficher le manuel de ls, je dois taper :
-$ man ls
-Ce qui m'ouvrira son manuel, qui je peux quitter ‡ tout moment en tapant q.
-
-**1.3.4. O˘ sommes-nous ?** 
-
-Une notion fondamentale pour le terminal : la notion de gÈographie. Comme dans l'explorateur en GUI, on se dÈplace de dossiers en dossiers dans le terminal. Si jamais tu veux ouvrir un fichier en tappant open file.txt (sur macOS) ou xdg-open file.txt (sur Linux) et que tu ne te trouves pas dans le bon dossier, le terminal te renverra une erreur. Un peu comme si tu essayais de double-cliquer sur file.txt dans le mauvais dossier : impossible car il n'y est pas.
-Tu vas devoir te dÈplacer donc de dossiers en dossiers pour ouvrir et intÈragir avec les bons fichiers.
-
-**1.3.5. CD** 
-
-cd est l'acronyme de Change Directory, qui te permet de naviguer entre dossiers. L'Èquivalent d'un double-clic sur un dossier en quelque sorte ??. 
-
-$ cd nomdudossier
-Tu te dÈplaceras dans le dossier nommÈ nomdudossier (s'il existe dans le dossier dans lequel tu te trouves).
-Tu peux aussi te dÈplacer vers le dossier parent en faisant $ cd ..
-
-## **ALERTE BONNE ASTUCE** 
-
-Utiliser la touche TAB permet de faire de l'autocompletion, trËs pratique pour cette mÈthode. Aussi, faire cd + [ESPACE] + TAB + TAB affiche les dossiers disponibles.
-
-**1.3.6. Autres fonctions**
-**1.3.6.1. CrÈer un fichier** 
-
-En tapant :
-$ touch nomdufichier
-Cela aura pour effet de crÈer un fichier qui s'appelle nomdufichier. 
-
-**1.3.6.2. Copier** 
-
-Pour copier un fichier ou un dossier d'un endroit ‡ un autre, il suffit de rentrer :
-$ cp fichier_‡_copier lieu_de_destination. 
-
-**1.3.6.3. DÈplacer** 
-
-Pour dÈplacer (couper) un fichier ou un dossier d'un endroit ‡ un autre, il suffit de rentrer :
-
-mv [fichier_‡_dÈplacer] [lieu_de_destination]
-**Protip** : mv est trËs pratique pour renommer un fichier. Imaginons que tu as crÈÈ un fichier "hello.rv" au lieu de "hello.rb". Oups, malheur. Heureusement, faire $ mv hello.rv hello.rb rÈsoud ceci en quelques coups de clavier !
-
-**1.3.6.4. Remove** 
-
-Supprimer un fichier :
-$ rm nomdufichier
-Il est possible d'effacer un dossier ainsi que son contenu en ajoutant la rÈcursion en option :
-
-$ rm -r nomdudossier
-## **INSTANT CULTURE G…**. 
-
-rm est ‡ l'origine d'une blague vieille comme le monde. En effet, ajouter l'option -f permet de forcer la suppression d'un fichier, mÍme s'il est important pour l'ordinateur, et finir par / ou * dit ‡ votre ordinateur de prendre absolument tous les fichiers. Ainsi, si tu tapes $ rm -rf / ou $ rm -rf * dans ton terminal, tu dis ‡ ce dernier de tout prendre et de tout effacer, en forÁant. Et figure toi que rm est trËs rapide, et donc effacera l'intÈgralitÈ de ton ordinateur en quelques secondes ‡ peine. ¿ ne jamais jamais jamais faire donc.
-
-**1.3.6.5. Vim**
-
-Vim est un des Èditeurs de texte les plus respectÈs au monde. Comme il passe uniquement par le terminal, il se marie extrÍmement bien avec cet outil. Et comme vim utilise exclusivement le clavier, ses raccourcis permettent d'aller extrÍmement vite, pour qui ose grimper la trËs dure courbe d'apprentissage (quelques semaines ‡ plein temps). De ce fait, je te montrerai vim pour ta culture gÈnÈrale, mais te demanderai de passer par un autre Èditeur de texte ??
-$ vim nomdufichier
-Permet d'ouvrir vim sur le fichier nomdufichier et de l'Èditer. Pour quitter vim, il faut rentrer :q!.
-
-**1.3.7. Autres astuces**
-
-CTRL + C annule la fonction en cours. Pratique quand on a une boucle infinie.
-La casse est trËs importante, idem pour les espaces.
-
-Il y a des raccourcis pratiques, par exemple CTRL + U efface la ligne en cours.
-Les touches du haut et du bas permettent de naviguer dans l'historique des commandes. TrËs pratique pour par exemple re-ÈxÈcuter une commande que tu viens de faire.
-
-## **1.4. Les points importants** 
-
-Voici les points ‡ retenir de la ressource :
-
-*       Pour lancer le terminal sur Linux : CTRL + ALT + T ; pour le lancer sur macOS : CMD + SPACE, puis Ècrire Terminal (ou iTerm), Enter.
-
-*       man est le manuel est permet de lancer la manuel des fonctions. 
-
-*       pwd affiche le dossier dans lequel tu es actuellement.
-
-*       ls est une commande qui affiche les fichiers et dossiers qu'il y a dans mon dossier actuel. 
-
-*       la notion de gÈographie est fondamentale : le terminal n'arrivera pas ‡ ouvrir les fichiers s'il ne se trouve pas dans le bon dossier. 
-
-*       cd permet de changer de dossier. 
-
-*       touch permet de crÈer un fichier.
-
-*       cp permet de copier un fichier. 
-
-*       mv permet de dÈplacer un fichier ou un dossier. 
-
-*       rm permet de supprimer un fichier. 
-
-## **1.5. Aller plus loin** 
-
-Voici un excellent cours express pour avoir quelques base sur le terminal. Il est un peu similaire au mien, mais aborde d'autres sujets intÈressants tels que le PATH.
-
-Viking Code School ont aussi fait un cours sur le pimp de terminal pour avoir plein de couleurs de BGs sur le tien.
-
-Michael Hartl a fait une cÈlËbre introduction au terminal nommÈe Learn Enough Command Line to Be Dangerous. Cette ressource permet d'aller assez loin en dÈtails dans le terminal.
-Pour ceux qui veulent dÈcouvrir Vim, voici une marche ‡ suivre pour Ítre champion de Vim rapidement.
+Aussi, voici [un cours](https://www.vikingcodeschool.com/web-development-basics/getting-to-know-git) sur Git de la Viking Code School. Il explique bien les bases de Git et est une bonne alternative au notre.
