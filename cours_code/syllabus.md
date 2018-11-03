@@ -1,4 +1,4 @@
-           ## SYLLABUS   
+## SYLLABUS   
   
 * **Intitulé de la formation** : Initiation code pour son propre site web  
 * **Volume horaire** :8h de cours + 15 h de projets  
