@@ -67,4 +67,8 @@ On peut faire ceci avec : $ git reset --hard 45581cebdd2cae494f80f44010af9e4a86c
 ## **2.5. Pour aller plus loin**
 Au vu des apologies que l'on lui donne, [le cours de OpenClassrooms](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) sur Git est un très bon point pour aller plus loin. Il explique notamment la notion de branches et de fusions.
 
+<<<<<<< HEAD
 Aussi, voici [un cours](https://www.vikingcodeschool.com/web-development-basics/getting-to-know-git) sur Git de la Viking Code School. Il explique bien les bases de Git et est une bonne alternative au notre.
+=======
+Aussi, voici [un cours](https://www.vikingcodeschool.com/web-development-basics/getting-to-know-git) sur Git de la Viking Code School. Il explique bien les bases de Git et est une bonne alternative au notre.
+>>>>>>> 29737b6ca58381b6e89cd08d51710116ec6ad535
